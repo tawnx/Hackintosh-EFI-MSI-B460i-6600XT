@@ -18,7 +18,7 @@
 
 #### 睡眠时会自动唤醒
 
-不懂
+用 `log show --last 4h |grep "Wake reason"` 查看，显示 `eACPIPlatformPower Wake reason: RTC (Alarm)`
 
 #### USB定制有些问题
 
